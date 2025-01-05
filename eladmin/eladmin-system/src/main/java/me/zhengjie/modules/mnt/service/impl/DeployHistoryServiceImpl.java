@@ -20,7 +20,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.RequiredArgsConstructor;
 import me.zhengjie.modules.mnt.domain.DeployHistory;
-import me.zhengjie.modules.mnt.mapper.DeployHistoryMapper;
+import me.zhengjie.modules.mappers.primary.mnt.DeployHistoryMapper;
 import me.zhengjie.modules.mnt.service.DeployHistoryService;
 import me.zhengjie.modules.mnt.domain.vo.DeployHistoryQueryCriteria;
 import me.zhengjie.utils.DateUtil;

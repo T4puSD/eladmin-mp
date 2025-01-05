@@ -17,7 +17,7 @@ package me.zhengjie.modules.quartz.config;
 
 import lombok.RequiredArgsConstructor;
 import me.zhengjie.modules.quartz.domain.QuartzJob;
-import me.zhengjie.modules.quartz.mapper.QuartzJobMapper;
+import me.zhengjie.modules.mappers.primary.quartz.QuartzJobMapper;
 import me.zhengjie.modules.quartz.utils.QuartzManage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

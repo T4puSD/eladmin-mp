@@ -76,7 +76,7 @@ public class RoleController {
 
     @ApiOperation("查询角色")
     @GetMapping
-    @PreAuthorize("@el.check('roles:list')")
+//    @PreAuthorize("@el.check('roles:list')")
     public ResponseEntity<PageResult<Role>> queryRole(RoleQueryCriteria criteria, Page<Object> page){
         return new ResponseEntity<>(roleService.queryAll(criteria, page),HttpStatus.OK);
     }

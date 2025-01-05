@@ -21,7 +21,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import me.zhengjie.modules.mnt.domain.Database;
-import me.zhengjie.modules.mnt.mapper.DatabaseMapper;
+import me.zhengjie.modules.mappers.primary.mnt.DatabaseMapper;
 import me.zhengjie.modules.mnt.service.DatabaseService;
 import me.zhengjie.modules.mnt.domain.vo.DatabaseQueryCriteria;
 import me.zhengjie.modules.mnt.util.SqlUtils;

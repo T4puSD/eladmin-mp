@@ -22,7 +22,7 @@ import cn.hutool.extra.template.TemplateUtil;
 import me.zhengjie.domain.vo.EmailVo;
 import me.zhengjie.modules.quartz.domain.QuartzJob;
 import me.zhengjie.modules.quartz.domain.QuartzLog;
-import me.zhengjie.modules.quartz.mapper.QuartzLogMapper;
+import me.zhengjie.modules.mappers.primary.quartz.QuartzLogMapper;
 import me.zhengjie.modules.quartz.service.QuartzJobService;
 import me.zhengjie.service.EmailService;
 import me.zhengjie.utils.RedisUtils;
